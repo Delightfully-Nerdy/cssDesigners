@@ -1,6 +1,6 @@
 body {
   font-family: "Ubuntu", sans-serif;
-  /* font-family:  Calibre, Helvetica, Arial, sans-serif; */
+  font-weight: 100;
 }
 
 h1 {
@@ -8,9 +8,34 @@ h1 {
 }
 
 h2 {
-  font-size: 27px;
+  background-color: red;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+  text-transform: uppercase;
+}
 p {
   font-size: 18px;
+}
+a:link {
+  color: rgb(168, 199, 143);
+}
+a:visited {
+  color: #eb78b3;
+}
+a:hover {
+  color: #f49ed7;
+}
+a:active {
+  color: #f714ad;
 }
